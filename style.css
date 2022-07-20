@@ -43,6 +43,7 @@ body{
 .box-club{
     padding: 60px;
     gap: 10px;
+
 }
 .box-club{
     display: flex;
@@ -51,7 +52,7 @@ body{
     display: grid;
     grid-template: rows;
     height: 200px;
-    width: 200px;
+    width: 300px;
     border: 30px solid rgb(26, 36, 4);
     border-radius: 10px;
     gap: 10px;
@@ -60,22 +61,65 @@ body{
 }
 .box-main button{
     background-color: #FFFFFF;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     color: rgb(34, 2, 2);
-    border-radius: 30px;
+    border-radius: 10px;
     border: none;
 }
 .club-main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+
+    
+}
+.club-main .common{
+    /* border: 1px solid yellowgreen; */
+    box-shadow: 10px 10px 5px #939c9f69;
+    border-radius: 10px;
+    /* padding: 10px; */
+}
+.club-text p{
+    padding: 8px 8px;
+}
+.club-text button{
+    padding: 7px 15px;
+    border-radius: 5px;
 }
 .awsome{
     display: flex;
-    text-align: justify;
     justify-content: space-around;
     
 }
 .awsome i{
     /* margin-left: 30px; */
+}
+
+hr{
+    width: 80%;
+}
+
+/* last stage */
+footer{
+    /* height: 400px; */
+    background-color: #000;
+    /* margin-top: 18px; */
+}
+.last-stage h1{
+    font-size: 3rem;
+    color: white;
+    /* margin-top: 18px; */
+}
+.last-stage{
+    text-align: center;
+    /* margin: 60px; */
+}
+.last-stage div a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+}
+.last-stage div p{
+    color: white;
 }
