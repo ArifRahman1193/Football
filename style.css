@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.main-hero{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: #161616;
+    margin: 60px;
+    border-radius: 10px;
+    padding: 50px;
+    height: 450px;
+}
+.text-hero{
+    color: white;
+    /* width: 50%; */
+}
+.text-hero h1{
+    font-size: 3.7rem;
+    line-height: 65px;
+}
+.text-hero p{
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
+.text-hero button{
+    Padding: 16px 25px;
+    border-radius: 5px;
+    color: white;
+    background: #DD0000;
+    font-weight: 700;
+}
+.image-hero{
+    /* width: 50%; */
+}
+.image-hero img{
+    margin-left: 50px;
+    zoom: 140%;
+}
+
+
+/* box and club */
+.box-club{
+    padding: 60px;
+    gap: 10px;
+}
+.box-club{
+    display: flex;
+}
+.box-main{
+    display: grid;
+    grid-template: rows;
+    height: 200px;
+    width: 200px;
+    border: 30px solid rgb(26, 36, 4);
+    border-radius: 10px;
+    gap: 10px;
+    background-color: #161616;
+ 
+}
+.box-main button{
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(34, 2, 2);
+    border-radius: 30px;
+    border: none;
+}
+.club-main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.awsome{
+    display: flex;
+    text-align: justify;
+    justify-content: space-around;
+    
+}
+.awsome i{
+    /* margin-left: 30px; */
+}
