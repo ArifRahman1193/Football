@@ -5,18 +5,24 @@ body{
 .main-hero{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background: #161616;
+    background-color: #161616;
     margin: 60px;
     border-radius: 10px;
     padding: 50px;
     height: 450px;
+    /* transition: width 2s, height 4s; */
 }
+/* .main-hero:hover{
+    width: 300px;
+    height: 300px;
+} */
 .text-hero{
     color: white;
 }
 .text-hero h1{
     font-size: 3.7rem;
     line-height: 65px;
+   
 }
 .text-hero p{
     font-size: 1.1rem;
@@ -33,7 +39,30 @@ body{
 .image-hero img{
     margin-left: 50px;
     zoom: 140%;
+    /* animation: mymove 5s infinite;
+    animation-delay: 1s; */
 }
+/* @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  } */
+
+/* .animation {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: myfirst 5s 2;
+    animation-direction: alternate;
+  }
+  
+  @keyframes myfirst {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 200px; top: 0px;}
+    50%  {background: blue; left: 200px; top: 200px;}
+    75%  {background: green; left: 0px; top: 200px;}
+    100% {background: red; left: 0px; top: 0px;}
+  } */
 
 
 /* box and club */
